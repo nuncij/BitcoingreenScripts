@@ -193,9 +193,22 @@ for i in `seq 1 1 $MNCOUNT`; do
   echo "daemon=1" >> ${NAME}.conf_TEMP
   echo "logtimestamps=1" >> ${NAME}.conf_TEMP
   echo "maxconnections=256" >> ${NAME}.conf_TEMP
-  echo "addnode=140.82.33.223" >> ${NAME}.conf_TEMP
-  echo "addnode=80.240.29.18" >> ${NAME}.conf_TEMP
-  echo "addnode=209.250.239.164" >> ${NAME}.conf_TEMP  
+
+  echo "addnode=addnode=51.15.198.252" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=51.15.206.123" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=51.15.66.234" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=51.15.86.224" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=51.15.89.27" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=51.15.57.193" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=134.255.232.212" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=185.239.238.237" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=185.239.238.240" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=134.255.232.212" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=207.148.26.77" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=207.148.19.239" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=108.61.103.123" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=185.239.238.89" >> ${NAME}.conf_TEMP 
+  echo "addnode=addnode=185.239.238.92" >> ${NAME}.conf_TEMP   
 
   echo "" >> ${NAME}.conf_TEMP
   echo "port=$PORT" >> ${NAME}.conf_TEMP

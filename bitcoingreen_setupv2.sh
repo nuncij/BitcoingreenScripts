@@ -3,7 +3,7 @@
 NAME="bitcoingreen"
 NAMEALIAS="bitg"
 URL="https://github.com/bitcoingreen/bitcoingreen/releases/download/v1.3.0/bitcoingreen-1.3.0-x86_64-linux-gnu.tar.gz"
-WALLETDL="zest-1.0.3-x86_64-linux-gnu.tar.gz"
+WALLETDL="bitcoingreen-1.3.0-x86_64-linux-gnu.tar.gz"
 WALLETDLFOLDER="bitcoingreen-1.3.0"
 
 RED='\033[1;31m'

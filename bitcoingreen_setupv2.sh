@@ -68,7 +68,7 @@ if [[ ${DOSETUP,,} =~ "y" ]] ; then
   mkdir -p ~/${NAME}_tmp
   cd ~/${NAME}_tmp
   
-  wget ${URL}${WALLETDL}
+  wget ${URL}
   chmod 775 ${WALLETDL}
   tar -xvzf ${WALLETDL}
   cd ./${WALLETDLFOLDER}/bin

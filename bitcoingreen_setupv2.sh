@@ -286,7 +286,7 @@ for i in `seq 1 1 $MNCOUNT`; do
   if [ -z "$PID" ]; then
     cd $CONF_DIR
     echo "Copy BLOCKCHAIN without conf files"
-    wget http://194.135.84.214/zest/bootstrap/${NAMEALIAS}_bootstrap.zip -O bootstrap.zip
+    wget http://167.86.97.235/zest/bootstrap/${NAMEALIAS}_bootstrap.zip -O bootstrap.zip
     # rm -R peers.dat 
 	rm -R ./database
 	rm -R ./blocks	

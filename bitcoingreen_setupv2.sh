@@ -15,11 +15,11 @@ BROWN='\033[0;34m'
 NC='\033[0m' # No Color
 
 cd ~
-echo "******************************************************************************"
-echo "* Ubuntu 16.04 is the recommended operating system for this install.         *"
-echo "*                                                                            *"
-echo "* This script will install and configure your ${NAME} Coin masternodes.      *"
-echo "******************************************************************************"
+echo "*****************************************************************************"
+echo "* Ubuntu 16.04 is the recommended operating system for this install.        *"
+echo "*                                                                           *"
+echo "* This script will install and configure your ${NAME} Coin masternodes.     *"
+echo "*****************************************************************************"
 echo && echo && echo
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo "!                                                 !"

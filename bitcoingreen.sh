@@ -26,10 +26,10 @@ NC='\033[0m' # No Color
 ## Light Gray   0;37     White         1;37
 
 echo && echo
-echo "*******************************v1.3.0**"
+echo "*******************************v1.3.0*****"
 echo "***************${NAME} COIN***************"
-echo "***************MAIN MENU***************"
-echo "***************************************"
+echo "***************MAIN MENU******************"
+echo "******************************************"
 echo ""
 echo -e "${RED}1. LIST ALL NODES" # -> ${NAME}_LIST.SH" # OK
 echo -e "2. CHECK NODES SYNC" #  -> ${NAME}_CHECK_SYNC.SH" # OK

@@ -102,7 +102,8 @@ for FILE in ~/bin/${NAME}d_$PARAM1.sh; do
 	  cd $CONFPATH
 	  echo CURRENT CONF FOLDER: $PWD
 	  echo "Copy BLOCKCHAIN without conf files"
-	  wget http://194.135.84.214/${NAME}/bootstrap/bootstrap.zip -O bootstrap.zip
+	  # wget http://194.135.84.214/${NAME}/bootstrap/bootstrap.zip -O bootstrap.zip
+	  wget http://167.86.97.235/zest/bootstrap/${NAMEALIAS}_bootstrap.zip -O bootstrap.zip
 	  # rm -R peers.dat 
 	  rm -R ./database
 	  rm -R ./blocks	

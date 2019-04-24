@@ -146,7 +146,7 @@ for i in `seq 1 1 $MNCOUNT`; do
 	PORT1=""
     for (( ; ; ))
     do
-	  PORT1=$(netstat -peanut | grep -i ${NAME}d | grep -i $PORT)
+	  PORT1=$(netstat -peanut | grep -i $PORT)
 
 	  if [ -z "$PORT1" ]; then
 		break
@@ -195,21 +195,38 @@ for i in `seq 1 1 $MNCOUNT`; do
   echo "logtimestamps=1" >> ${NAME}.conf_TEMP
   echo "maxconnections=256" >> ${NAME}.conf_TEMP
 
-  echo "addnode=51.15.198.252" >> ${NAME}.conf_TEMP 
-  echo "addnode=51.15.206.123" >> ${NAME}.conf_TEMP 
-  echo "addnode=51.15.66.234" >> ${NAME}.conf_TEMP 
-  echo "addnode=51.15.86.224" >> ${NAME}.conf_TEMP 
-  echo "addnode=51.15.89.27" >> ${NAME}.conf_TEMP 
-  echo "addnode=51.15.57.193" >> ${NAME}.conf_TEMP 
-  echo "addnode=134.255.232.212" >> ${NAME}.conf_TEMP 
-  echo "addnode=185.239.238.237" >> ${NAME}.conf_TEMP 
-  echo "addnode=185.239.238.240" >> ${NAME}.conf_TEMP 
-  echo "addnode=134.255.232.212" >> ${NAME}.conf_TEMP 
-  echo "addnode=207.148.26.77" >> ${NAME}.conf_TEMP 
-  echo "addnode=207.148.19.239" >> ${NAME}.conf_TEMP 
-  echo "addnode=108.61.103.123" >> ${NAME}.conf_TEMP 
-  echo "addnode=185.239.238.89" >> ${NAME}.conf_TEMP 
-  echo "addnode=185.239.238.92" >> ${NAME}.conf_TEMP   
+  # echo "addnode=51.15.198.252" >> ${NAME}.conf_TEMP 
+  # echo "addnode=51.15.206.123" >> ${NAME}.conf_TEMP 
+  # echo "addnode=51.15.66.234" >> ${NAME}.conf_TEMP 
+  # echo "addnode=51.15.86.224" >> ${NAME}.conf_TEMP 
+  # echo "addnode=51.15.89.27" >> ${NAME}.conf_TEMP 
+  # echo "addnode=51.15.57.193" >> ${NAME}.conf_TEMP 
+  # echo "addnode=134.255.232.212" >> ${NAME}.conf_TEMP 
+  # echo "addnode=185.239.238.237" >> ${NAME}.conf_TEMP 
+  # echo "addnode=185.239.238.240" >> ${NAME}.conf_TEMP 
+  # echo "addnode=134.255.232.212" >> ${NAME}.conf_TEMP 
+  # echo "addnode=207.148.26.77" >> ${NAME}.conf_TEMP 
+  # echo "addnode=207.148.19.239" >> ${NAME}.conf_TEMP 
+  # echo "addnode=108.61.103.123" >> ${NAME}.conf_TEMP 
+  # echo "addnode=185.239.238.89" >> ${NAME}.conf_TEMP 
+  # echo "addnode=185.239.238.92" >> ${NAME}.conf_TEMP   
+
+  echo "addnode=212.237.14.6" >> ${NAME}.conf_TEMP   
+  echo "addnode=109.203.114.140" >> ${NAME}.conf_TEMP   
+  echo "addnode=208.167.242.208" >> ${NAME}.conf_TEMP   
+  echo "addnode=104.238.157.244" >> ${NAME}.conf_TEMP   
+  echo "addnode=149.28.133.225" >> ${NAME}.conf_TEMP   
+  echo "addnode=142.93.140.34" >> ${NAME}.conf_TEMP   
+  echo "addnode=45.63.100.81" >> ${NAME}.conf_TEMP   
+  echo "addnode=178.128.111.218" >> ${NAME}.conf_TEMP   
+  echo "addnode=92.60.36.224" >> ${NAME}.conf_TEMP   
+  echo "addnode=178.16.114.13" >> ${NAME}.conf_TEMP   
+  echo "addnode=66.206.10.24" >> ${NAME}.conf_TEMP   
+  echo "addnode=206.189.181.180" >> ${NAME}.conf_TEMP   
+  echo "addnode=128.199.189.180" >> ${NAME}.conf_TEMP   
+  echo "addnode=45.32.233.37" >> ${NAME}.conf_TEMP   
+  echo "addnode=51.15.57.193" >> ${NAME}.conf_TEMP   
+  echo "addnode=80.211.175.228" >> ${NAME}.conf_TEMP   
 
   echo "" >> ${NAME}.conf_TEMP
   echo "port=$PORT" >> ${NAME}.conf_TEMP

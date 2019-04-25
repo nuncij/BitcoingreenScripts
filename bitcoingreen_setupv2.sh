@@ -310,6 +310,7 @@ for i in `seq 1 1 $MNCOUNT`; do
 	rm -R ./sporks
 	rm -R ./chainstate	
     unzip  bootstrap.zip
+    rm ./bootstrap.zip
     sh ~/bin/${NAME}d_$ALIAS.sh		
     sleep 5 # wait 5 seconds 
   fi		  

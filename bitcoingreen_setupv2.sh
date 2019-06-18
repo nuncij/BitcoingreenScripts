@@ -2,9 +2,9 @@
 
 NAME="bitcoingreen"
 NAMEALIAS="bitg"
-URL="https://github.com/bitcoingreen/bitcoingreen/releases/download/v1.3.0/bitcoingreen-1.3.1-x86_64-linux-gnu.tar.gz"
-WALLETDL="bitcoingreen-1.3.1-x86_64-linux-gnu.tar.gz"
-WALLETDLFOLDER="bitcoingreen-1.3.1"
+URL="https://github.com/bitgreen/bitgreen/releases/download/v1.3.1/bitgreen-1.3.1-x86_64-linux-gnu.tar.gz"
+WALLETDL="bitgreen-1.3.1-x86_64-linux-gnu.tar.gz"
+WALLETDLFOLDER="bitgreen-1.3.1"
 
 RED='\033[1;31m'
 GREEN='\033[0;32m'

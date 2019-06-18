@@ -4,7 +4,7 @@ PARAM1=$*
 NAME="bitgreen"
 NAMEALIAS="bitg"
 BLOCKHASHCOINEXPLORER=$(curl -s4 https://www.coinexplorer.net/api/${NAMEALIAS}/block/latest | jq -r ".result.hash")
-LATESTWALLETVERSION="1030003"
+LATESTWALLETVERSION="1030102"
 
 if [ -z "$PARAM1" ]; then
   PARAM1="*"  	  

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME="bitcoingreen"
+NAME="bitgreen"
 NAMEALIAS="bitg"
 BLOCKHASHCOINEXPLORER=$(curl -s4 https://www.coinexplorer.net/api/${NAMEALIAS}/block/latest | jq -r ".result.hash")	
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 PARAM1=$*
-NAME="bitg"
+NAME="bitgreen"
 
 if [ -z "$PARAM1" ]; then
   PARAM1="*"  	  

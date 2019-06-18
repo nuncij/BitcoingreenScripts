@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME="bitcoingreen"
+NAME="bitgreen"
 URL="https://raw.githubusercontent.com/CryptoCatOkiOKi/BitcoingreenScripts/master/"
 
 ##

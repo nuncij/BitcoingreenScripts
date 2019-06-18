@@ -1,5 +1,5 @@
 #!/bin/bash
-NAME="bitcoingreen"
+NAME="bitgreen"
 PARAM1=$*
 
 if [ -z "$PARAM1" ]; then

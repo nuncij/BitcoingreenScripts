@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME="bitcoingreen"
+NAME="bitgreen"
 NAMEALIAS="bitg"
 URL="https://github.com/bitgreen/bitgreen/releases/download/v1.3.1/bitgreen-1.3.1-x86_64-linux-gnu.tar.gz"
 WALLETDL="bitgreen-1.3.1-x86_64-linux-gnu.tar.gz"

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Is not BITCOINGREEN anymore but BITGREEN 
+#
 NAME="bitgreen"
 NAMEALIAS="bitg"
 URL="https://github.com/bitgreen/bitgreen/releases/download/v1.3.1/bitgreen-1.3.1-x86_64-linux-gnu.tar.gz"
